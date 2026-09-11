@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# build & cache
+/.next/
+/.vinext/
+/.wrangler/
+/dist/
+/out/
+/outputs/
+*.tsbuildinfo
+
+# runtime data
+/work/
+
+# local environment & secrets
+.env
+.env.*
+!.env.example
+config/*.env
+
+# macOS resource forks
+._*
+.DS_Store
+
+# logs & temp
+*.log
+tmp/
+.playwright-cli/
